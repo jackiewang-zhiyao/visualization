@@ -17,18 +17,23 @@
     I am trying to show ontario apple production (lbs) by variety in 2005. 
 
     > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots? 
-    Similarly, I considered the visualization from three main perspectives. From an aesthetic perspective, I aimed to create a clean and intentional layout in which the title, chart elements, labels, and legend are clearly presented. Rather than using another bar chart, I chose a pie chart to emphasize how each apple variety contributes to total production. From a substantive perspective, I ensured that the subject and purpose of the visualization are easy to understand and that the chart connects the data to the real-world distribution of apple production across varieties. From a perceptual perspective, I focused on making the visualization easy to interpret by organizing the categories clearly, using distinct slices, and displaying percentage labels so that viewers can quickly compare the relative contribution of each variety.
+    Similarly, I considered the visualization from three main perspectives. From an aesthetic perspective, I aimed to create a clean and intentional layout in which the title, chart elements, labels, and legend are clearly presented. Rather than using another bar chart, I chose a pie chart to emphasize how each apple variety contributes to total production. From a substantive perspective, I ensured that the subject and purpose of the visualization are easy to understand and that the chart connects the data to the real-world distribution of apple production across varieties. From a perceptual perspective, I focused on making the visualization easy to interpret by organizing the categories clearly. However, I also noticed several limitations. The bar chart does not communicate the values as precisely as the original table, especially when many categories are included. Using different colours for each category also adds visual complexity without necessarily improving clarity. Although a pie chart can show each variety’s share of total production, the large number of apple varieties creates too many small slices, making the chart difficult to read and compare. Excel also provides limited flexibility for improving the arrangement of labels and categories. Therefore, because of the number of categories in this dataset, neither the bar chart nor the pie chart can present every value with the same clarity as the original table.
     
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
-    
+    The original data is in excel and the figure is also created in excel. And similarly, if a non-reproducible tool had been used, it would be difficulty to verify how data was processed to create the visualization. This will introduce errors and inconsistencies. 
     
     > How did you ensure that your data visualization is accessible?  
+    I improved the accessibility of the Excel pie chart by giving it a clear and descriptive title and by including a legend that identifies each apple variety. The chart uses distinct colours to separate the categories, and white borders between the slices help make each section more visible. I also kept the background simple so that the chart elements remain easy to see. However, as I mentioned above the large number of apple varieties makes some slices very small and difficult to compare. 
     
     > Who are the individuals and communities who might be impacted by your visualization?  
+    It is the same dataset, so growers and agricultural organizations could use the information to understand which apple varieties account for the largest portions of production in 2005. Distributors and retailers may use it to understand the relative availability of different varieties.
     
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+    Similarly, I included apple variety and marketed production because the variables directly support the purpose of comparing the relative production of different apple varieties. I excluded transaction price, grower price, transaction value, grower value, and marketing costs. 
     
     > What ‘underwater labour’ contributed to your final data visualization product?
+    Using excel is easy without the need to clean data, but to improve accessibility further, I tried to  add data labels showing the percentage for each major variety, however, it doesn't help, so I removed it. 
+
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
